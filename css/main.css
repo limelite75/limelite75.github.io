@@ -259,7 +259,7 @@ p {
 .bio-box h3 {
   color: #fff;
   font-size: 1.5em;
-  margin: -40px 0 1em;
+  margin: -50px 0 1em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -286,6 +286,7 @@ p {
 .home-callout {
   display: flex;
   align-items: center;
+  background-color: #ffbf00;
   color: #fff;
   padding: 7vh 0;
 }
@@ -323,13 +324,14 @@ p {
   flex-basis: 0;
   text-align: center;
   color: #3d2d00;
-  font-size: 1.5em;
 }
 .aboutzumba {
-  flex-shrink: 0;
   flex-basis: 45em;
   padding: 0 3vw;
   font-size: 1.2em;
+
+}
+.aboutzumba img {
 
 }
 .full-zumba {
