@@ -317,7 +317,6 @@ p {
   width: 90vw;
   display: flex;
   font-family: 'Unkempt', cursive;
- 
 }
 .schedule {
   flex-grow: 1;
@@ -342,5 +341,9 @@ p {
 }
 .zumba-bottom {
   background-image: url(/images/zumbakids.png);
+}
+#map {
+  height: 200px;
+  width: 100%;
 }
 
