@@ -315,12 +315,17 @@ p {
   margin: 6rem auto;
   /*max-width: 980px;*/
   width: 90vw;
-  display: flex;
+ 
   font-family: 'Unkempt', cursive;
+  overflow: hidden;
+  display: inline-flex;
+  flex-wrap: wrap;
+  
 }
 .schedule {
   flex-grow: 1;
   flex-basis: 0;
+  float: left;
   text-align: center;
   color: #3d2d00;
 }
@@ -328,7 +333,7 @@ p {
   flex-basis: 45em;
   padding: 0 3vw;
   font-size: 1.2em;
-
+  overflow: hidden;
 }
 .aboutzumba img {
 
@@ -342,8 +347,16 @@ p {
 .zumba-bottom {
   background-image: url(/images/zumbakids.png);
 }
-#map {
-  height: 200px;
-  width: 100%;
-}
 
+@media (max-width: 800px) {
+ .familyzumba {
+   flex-direction: column;
+ }
+ .schedule {
+   float: none;
+   width: auto;
+ }
+ .zumba-bottom {
+   display: none;
+ }
+}
