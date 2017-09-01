@@ -346,6 +346,7 @@ p {
 }
 .zumba-bottom {
   background-image: url(/images/zumbakids.png);
+  width: 100%;
 }
 
 @media (max-width: 800px) {
