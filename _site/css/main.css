@@ -92,6 +92,7 @@ h4 {
   color: #999;
   font-weight: bold;
   text-transform: uppercase;
+  margin: 1em;
 }
 
 /* HEADER STYLES */
@@ -366,7 +367,7 @@ h4 {
 .posts-image {
   background-position: center;
   background-size: cover;
-  height: 6em;
+  height: 15em;
   margin-bottom: 1.5em;
 }
 .post {

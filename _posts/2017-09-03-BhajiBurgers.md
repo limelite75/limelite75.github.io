@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bahji Burgers
-postHero: /images/recipes.jpg
+postHero: /images/food/bhajiburger.jpg
 reference: reddit
 tillagningstid: 30min
 portioner: 4

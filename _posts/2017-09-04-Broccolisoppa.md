@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Broccolisoppa med rotsaker
-postHero: /images/recipes.jpg
+postHero: /images/food/broccolisoppa.jpg
 reference: vegan.ifokus.se
 tillagningstid: 30min
 portioner: 4
